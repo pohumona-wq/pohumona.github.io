@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Air Pollution Monitor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="good">
+
+  <div class="app">
+    <h1>🌍 Air Quality Index</h1>
+    <p class="subtitle">Real-time pollution levels in India</p>
+
+    <div class="search-box">
+      <input type="text" id="city" placeholder="Enter city (India)">
+      <button onclick="getAirQuality()">Check</button>
+    </div>
+
+    <div id="result" class="card hidden"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
